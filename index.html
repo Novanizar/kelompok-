@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tim Hebat Kami</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: #121212;
+            color: white;
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.9);
+            padding: 20px;
+            font-size: 26px;
+            font-weight: bold;
+            border-bottom: 3px solid white;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background: url('https://source.unsplash.com/400x250/?galaxy,stars') no-repeat center center;
+            background-size: cover;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3);
+            transition: transform 0.3s ease-in-out;
+            width: 220px;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid white;
+        }
+
+        .name {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .role {
+            font-size: 14px;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>Anggota Kelompok Kami</header>
+
+    <div class="container">
+        <!-- Baris pertama (3 anggota) -->
+        <div class="row">
+            <div class="card">
+                <img src="aliyah.jpg" alt="Foto 1">
+                <div class="name">Aliyah Tasya</div>
+                <div class="role">233140707111114</div>
+            </div>
+            <div class="card">
+                <img src="sarah.jpg" alt="Foto 2">
+                <div class="name">Sarah Nissa</div>
+                <div class="role">2331407001111</div>
+            </div>
+            <div class="card">
+                <img src="alwu.jpg" alt="Foto 3">
+                <div class="name">Alwulida Umma</div>
+                <div class="role">233140707111107</div>
+            </div>
+        </div>
+
+        <!-- Baris kedua (2 anggota) -->
+        <div class="row">
+            <div class="card">
+                <img src="nizar.jpg" alt="Foto 4">
+                <div class="name">Nova Nizar</div>
+                <div class="role">233140707111113</div>
+            </div>
+            <div class="card">
+                <img src="maradu.jpg" alt="Foto 5">
+                <div class="name">Maradu Hutahaean</div>
+                <div class="role">233140707111123</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
